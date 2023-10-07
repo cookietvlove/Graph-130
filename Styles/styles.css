@@ -1,0 +1,85 @@
+body {
+    background-image: url(pexels-holiho-1112186.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-size:16px;
+}
+
+/* nav {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+header img {
+    display: block;
+    margin: auto;
+    height: 80px;
+    width: auto;
+}
+header {
+    background-color: rgb(250, 250, 244);
+}
+
+nav p {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    color:darkslategray;
+}
+nav p:hover {
+    color:darkgoldenrod;
+}
+nav, main, footer {
+    color:white;
+    display: flex;
+    width:70%;
+    justify-content: center;
+    margin:30px auto;
+}
+
+article {
+    width:60%;
+    padding:10px;
+}
+article p {
+    border-bottom:solid 1px white;
+    padding-bottom: 10px;
+}
+main ul {
+    width:40%;
+    padding:10px;
+    align-self: flex-end;
+}
+
+main ul li {
+    list-style-type: none;
+    padding:10px;
+    margin:10px;
+    border:solid white 1px;
+    text-align: center;
+}
+
+main ul li:hover {
+    background-color:white;
+    color:darkslategray;
+}
+
+
+h1 {
+    font-size:3em;
+}
+h2 {
+    font-size:2em;
+}
+p {
+    line-height: 2em;
+}
+
+footer a {
+    color:darkgoldenrod;
+}
