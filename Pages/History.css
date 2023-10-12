@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font: size 16px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+
+}
+section {
+    width: 300px;
+    background-color: rgb(0, 0, 50);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius:0px 0px 30px 30px;
+    box-shadow: lightgray 5px 10px 8px;
+}
+
+.biscuit {
+    background-color: whitesmoke;
+    color: rgb(0, 0, 50);
+} 
+
+#lily, header {
+    background-color: rgb(0, 0, 50);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+header a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3e;
+}
